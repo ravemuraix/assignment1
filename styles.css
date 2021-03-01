@@ -1,0 +1,106 @@
+title 
+{
+	text-align:center;
+	color: forestgreen;
+}
+
+body 
+{
+	background-color: lightseagreen;
+	background-image: url('background.jpg');
+}
+
+h1 
+{
+  	text-align:center;
+	color: midnightblue;
+	font-family: Garamond;
+	font-size: 850%;
+	background-color: lightgreen;
+	padding: 1px 1px;
+}
+
+h2 
+{
+	text-align:center;
+	color: maroon;
+	font-family: verdana;
+	font-size: 350%;
+	background-color: lightgreen
+}	
+
+p 
+{
+	color: darkgreen;
+	background-color: lightgreen
+}
+
+.center 
+{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 60%;
+	text-align:center;
+}
+
+img
+{
+  	border: 10px solid darkgreen;
+  	padding: 5px;
+}
+
+.magic 
+{
+  	position: relative;
+  	width: 50%;
+}
+
+.magic:hover .bigmap
+{
+	opacity: 0.65;
+}
+
+.magic:hover .smallmap
+{
+	opacity: 1;
+	
+}
+
+.smallmap
+{ 
+	opacity: 0;
+	transition: .5s ease;
+	position: absolute;
+}
+
+.one
+{
+	top: 23%;
+	left:130%;
+}
+
+.two
+{
+	top: 55%;
+	left:80%;
+}
+
+.three
+{
+	top: 30%;
+	left:30%;
+}
+
+.four
+{
+	top: 5%;
+	left:55%;
+}
+
+.bigmap
+{ 
+	opacity: 1;
+  	transition: .5s ease;
+	display: block;
+}
